@@ -24,6 +24,7 @@
 .DS_Store
 *.pem
 live-deck.png
+.deck-export/
 
 # debug
 npm-debug.log*
