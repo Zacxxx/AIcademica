@@ -477,9 +477,18 @@
     margin: 0;
   }
 
+  html,
+  body {
+    background: #ffffff !important;
+    color-scheme: light;
+  }
+
   .shell {
     padding: 0;
-    background: #0b0b0d;
+    background: #ffffff !important;
+    color: #161616;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 
   .topbar {
@@ -494,21 +503,93 @@
   .slide {
     width: 100vw;
     min-height: 100vh;
+    aspect-ratio: auto;
     margin: 0;
     border: 0;
     border-radius: 0;
     box-shadow: none;
+    background: #ffffff !important;
+    color: #161616;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
     page-break-after: always;
     break-after: page;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
   .slide::before {
     animation: none;
+    display: none;
   }
 
   .slide:last-child {
     page-break-after: auto;
     break-after: auto;
+  }
+
+  .slide::after,
+  .orb {
+    display: none;
+  }
+
+  .coverPanel,
+  .card,
+  .assessmentCard,
+  .sideNote,
+  .stackCard,
+  .roadmapItem,
+  .timelineItem {
+    background: #f6f1e8 !important;
+    border-color: rgba(22, 22, 22, 0.12) !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  .kicker,
+  .sectionLabel,
+  .noteLabel,
+  .panelHeader,
+  .cardIndex,
+  .timelineItem span {
+    color: #8b5c2d !important;
+  }
+
+  .lead,
+  .stackNarrative p,
+  .sideNote p,
+  .assessmentCard p,
+  .roadmapItem,
+  .timelineItem p,
+  .metric span,
+  .panelFooter {
+    color: #3b3b3b !important;
+  }
+
+  .coverCopy h2,
+  .slideHeading h3,
+  .topbar h1,
+  .metric strong,
+  .closingLine,
+  .card h4,
+  .assessmentCard h4,
+  .timelineItem p {
+    color: #111111 !important;
+  }
+
+  .pills span,
+  .stackItem {
+    color: #111111 !important;
+    background: #ffffff !important;
+    border-color: rgba(22, 22, 22, 0.12) !important;
+  }
+
+  .button,
+  .textLink {
+    background: #ffffff !important;
+    color: #111111 !important;
+    border-color: rgba(22, 22, 22, 0.16) !important;
   }
 }
 

@@ -82,7 +82,7 @@ export default function DeckPage() {
           <Link href="/" className={styles.textLink}>
             Home
           </Link>
-          <a href="/aicademica-deck.pdf" className={styles.button}>
+          <a href="/deck/pdf" className={styles.button}>
             PDF
           </a>
         </div>
