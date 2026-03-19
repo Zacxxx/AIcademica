@@ -111,6 +111,7 @@ The landing page ships with a branded banner and icon so the project feels like 
 
 - `SPEC.md` contains the source prompt and the product spec.
 - `DECK.md` is the pitch deck.
+- `public/aicademica-deck.pdf` is the exported PDF deck.
 - `CONTRIBUTING.md` describes the contribution workflow.
 - `REPO_RULES.md` documents the owner-only editing rule.
 - `frontend/` holds the extracted prototype from the zip.
