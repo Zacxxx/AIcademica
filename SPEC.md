@@ -1,8 +1,26 @@
 # AIcademica Spec
 
-## 1. Source Prompt
+> AIcademica is a frontend for an AI Agent University built to accelerate learning for real people.
 
-This project starts from the following original prompt:
+## Table of Contents
+
+- [Source Prompt](#source-prompt)
+- [Product Summary](#product-summary)
+- [Core Thesis](#core-thesis)
+- [Agent Model](#agent-model)
+- [Learning Loop](#learning-loop)
+- [Student Journey](#student-journey)
+- [Stack](#stack)
+- [Product Principles](#product-principles)
+- [First-Screen Requirements](#first-screen-requirements)
+- [Non-Goals For v0](#non-goals-for-v0)
+- [Repo Deliverables](#repo-deliverables)
+- [Identity Keywords](#identity-keywords)
+
+## Source Prompt
+
+<details>
+<summary><strong>Original prompt</strong></summary>
 
 > In dev/sandbox create a project called : AIcademica
 >
@@ -50,11 +68,13 @@ This project starts from the following original prompt:
 >
 > The stack for now is next, bun, rust and supabase
 
-## 2. Product Summary
+</details>
 
-AIcademica is a frontend for an AI Agent University. The product is built to accelerate learning for real people through a conventional education flow mediated by specialized agents.
+## Product Summary
 
-## 3. Core Thesis
+AIcademica is a frontend for an AI Agent University. The product accelerates learning for real people through a conventional education flow mediated by specialized agents.
+
+## Core Thesis
 
 - Learning becomes faster when teaching is structured, sequential, and measurable.
 - Agent specialization is better than one generic agent doing everything.
@@ -62,46 +82,46 @@ AIcademica is a frontend for an AI Agent University. The product is built to acc
 - Assessment matters as much as instruction, so examinations are first-class.
 - A university metaphor creates a clear mental model for students, teachers, and operational teams.
 
-## 4. Agent Model
+## Agent Model
 
-### 4.1 Professor Agents
+### Professor Agents
 
 - Teach async classes.
 - Answer student questions.
 - Focus on pedagogy, clarity, and knowledge transfer.
 - Use the prepared program as their source of truth.
 
-### 4.2 Educational Body Agents
+### Educational Body Agents
 
 - Create programs, classes, schedules, and events.
 - Spawn professor and examination agents based on the season plan.
 - Turn supervisor intent into operational curricula.
 
-### 4.3 Examination Agents
+### Examination Agents
 
 - Create assignments and tests.
 - Organize verification events, including in-person checkpoints when needed.
 - Confirm that knowledge is truly acquired before certification.
 
-### 4.4 Supervisor Agents
+### Supervisor Agents
 
 - Define the axes and priorities for the current season.
 - Orchestrate the whole university.
 - Coordinate the educational body, professors, examinations, and treasury.
 
-### 4.5 Treasurer Agent
+### Treasurer Agent
 
 - Manage budget planning and burn.
 - Find ways to finance the university.
 - Keep the institution viable without weakening the learning mission.
 
-### 4.6 Tool Agents
+### Tool Agents
 
 - Expose capabilities to other agents.
 - Provide dynamic UI experiences on a virtual whiteboard.
 - Support teaching, explanation, and interactive visual learning.
 
-## 5. Learning Loop
+## Learning Loop
 
 1. The supervisor defines the season.
 2. Educational body agents draft programs and classes.
@@ -110,7 +130,14 @@ AIcademica is a frontend for an AI Agent University. The product is built to acc
 5. Examination agents verify the student’s knowledge.
 6. Students receive grades, certifications, and eventually diplomas.
 
-## 6. Student Journey
+<details>
+<summary><strong>Operational note</strong></summary>
+
+The flow is intentionally conventional: curriculum first, teaching second, assessment last. That is the model the UI should communicate from day one.
+
+</details>
+
+## Student Journey
 
 - Choose a diploma target.
 - Apply to the classes that map to that diploma.
@@ -119,14 +146,22 @@ AIcademica is a frontend for an AI Agent University. The product is built to acc
 - Complete certification requirements.
 - Graduate with a diploma that reflects the acquired knowledge.
 
-## 7. Stack
+## Stack
 
 - Frontend: Next.js
 - Package manager: Bun
 - Backend services: Rust
 - Data and auth: Supabase
 
-## 8. Product Principles
+<details>
+<summary><strong>Implementation note</strong></summary>
+
+The repo currently contains the Next.js frontend scaffold, the documentation set, and the extracted prototype under `frontend/`.
+Rust services and Supabase wiring are part of the intended product direction.
+
+</details>
+
+## Product Principles
 
 - Conventional structure first, AI second.
 - Programs before classes.
@@ -134,7 +169,7 @@ AIcademica is a frontend for an AI Agent University. The product is built to acc
 - Clear specialization for every agent.
 - Human learning outcomes over agent novelty.
 
-## 9. First-Screen Requirements
+## First-Screen Requirements
 
 - Explain what AIcademica is in one sentence.
 - Show the agent roles at a glance.
@@ -142,14 +177,14 @@ AIcademica is a frontend for an AI Agent University. The product is built to acc
 - Show the stack and implementation direction.
 - Set the tone as scholarly, operational, and modern.
 
-## 10. Non-Goals For v0
+## Non-Goals For v0
 
 - No attempt to automate away the full academic process.
 - No generic chatbot product framing.
 - No marketplace before the core learning loop exists.
 - No fake grading without verification.
 
-## 11. Repo Deliverables
+## Repo Deliverables
 
 - `README.md` for project orientation.
 - `DECK.md` for the pitch deck.
@@ -158,7 +193,7 @@ AIcademica is a frontend for an AI Agent University. The product is built to acc
 - `CODEOWNERS` to bind edits to `zacxxx`.
 - A branded landing page in Next.js.
 
-## 12. Appendix: Identity Keywords
+## Identity Keywords
 
 - AI agent university
 - professor agents
