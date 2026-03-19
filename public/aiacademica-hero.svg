@@ -1,0 +1,58 @@
+<svg width="1600" height="1200" viewBox="0 0 1600 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AIcademica hero</title>
+  <desc id="desc">Abstract university banner for AIcademica.</desc>
+  <defs>
+    <linearGradient id="bg" x1="187" y1="112" x2="1408" y2="1091" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20140D"/>
+      <stop offset="0.55" stop-color="#111114"/>
+      <stop offset="1" stop-color="#09090B"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(520 340) rotate(46) scale(340 280)">
+      <stop stop-color="#E7B36E" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#E7B36E" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 820) rotate(50) scale(440 360)">
+      <stop stop-color="#8F5D2E" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#8F5D2E" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="310" y1="260" x2="1320" y2="930" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4D39F"/>
+      <stop offset="1" stop-color="#A96C34"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="1200" rx="72" fill="url(#bg)"/>
+  <rect x="80" y="80" width="1440" height="1040" rx="56" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <circle cx="540" cy="360" r="260" fill="url(#glow1)"/>
+  <circle cx="1120" cy="835" r="320" fill="url(#glow2)"/>
+
+  <g opacity="0.75">
+    <path d="M270 760C385 594 494 466 646 370C798 274 950 238 1122 248C1228 254 1317 280 1418 334"
+      stroke="url(#ring)" stroke-width="8" stroke-linecap="round" stroke-dasharray="1 26"/>
+    <path d="M354 894C498 751 632 657 786 605C948 550 1096 563 1238 645"
+      stroke="rgba(247,226,201,0.36)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="1036" cy="305" r="106" stroke="rgba(244,211,159,0.52)" stroke-width="3"/>
+    <circle cx="1036" cy="305" r="56" stroke="rgba(244,211,159,0.32)" stroke-width="2"/>
+    <circle cx="1036" cy="305" r="14" fill="#F1C17C"/>
+  </g>
+
+  <g opacity="0.82">
+    <rect x="204" y="250" width="330" height="310" rx="32" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.09)"/>
+    <rect x="262" y="316" width="214" height="24" rx="12" fill="#F2D8B2"/>
+    <rect x="262" y="360" width="176" height="16" rx="8" fill="rgba(242,216,178,0.7)"/>
+    <rect x="262" y="394" width="254" height="16" rx="8" fill="rgba(242,216,178,0.42)"/>
+    <rect x="262" y="438" width="196" height="16" rx="8" fill="rgba(242,216,178,0.42)"/>
+    <rect x="262" y="472" width="148" height="16" rx="8" fill="rgba(242,216,178,0.28)"/>
+
+    <rect x="980" y="560" width="360" height="262" rx="32" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.1)"/>
+    <rect x="1038" y="622" width="240" height="22" rx="11" fill="#F2D8B2"/>
+    <rect x="1038" y="664" width="196" height="14" rx="7" fill="rgba(242,216,178,0.48)"/>
+    <rect x="1038" y="694" width="268" height="14" rx="7" fill="rgba(242,216,178,0.32)"/>
+    <rect x="1038" y="726" width="168" height="14" rx="7" fill="rgba(242,216,178,0.32)"/>
+  </g>
+
+  <g opacity="0.85">
+    <text x="160" y="1012" fill="#F5EFE6" font-size="72" font-family="Georgia, serif" letter-spacing="-1.5">AIcademica</text>
+    <text x="160" y="1066" fill="rgba(245,239,230,0.7)" font-size="24" font-family="SFMono-Regular, Consolas, monospace" letter-spacing="4">PROFESSOR • EXAMINATION • SUPERVISION • TREASURY</text>
+  </g>
+</svg>

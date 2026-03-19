@@ -1,0 +1,17 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AIcademica icon</title>
+  <desc id="desc">Circular icon with an A and orbiting ring for AIcademica.</desc>
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(84 72) rotate(38) scale(168 170)">
+      <stop stop-color="#F1C17C"/>
+      <stop offset="1" stop-color="#7B4A1D"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" rx="72" fill="#0E0C0C"/>
+  <circle cx="128" cy="128" r="88" fill="url(#bg)" opacity="0.18"/>
+  <circle cx="128" cy="128" r="84" stroke="rgba(245,239,230,0.16)" stroke-width="6"/>
+  <path d="M64 166L108 70H148L192 166H160L151 142H104L95 166H64Z" fill="#F5EFE6"/>
+  <path d="M113 123H142L128 87L113 123Z" fill="#E7B36E"/>
+  <path d="M176 60C190 72 200 89 203 108" stroke="#E7B36E" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="206" cy="121" r="7" fill="#E7B36E"/>
+</svg>
